@@ -20,5 +20,5 @@ const s = firstLetter("Hello");
 Get the last letter of a string
 ```
 const s = lastLetter("Hello"); 
-// returns "H"
+// returns "o"
 ```
