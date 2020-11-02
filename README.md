@@ -1,9 +1,10 @@
-# Substring Methods
-A collection of methods related to substrings in JavaScript
 
 ![](https://img.shields.io/github/issues/softwarecradle/substring-methods)
 ![](https://img.shields.io/github/forks/softwarecradle/substring-methods)
 ![](https://img.shields.io/github/stars/softwarecradle/substring-methods)
+
+# Substring Methods
+A collection of methods related to substrings in JavaScript
 
 ## Usage
 
