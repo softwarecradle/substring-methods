@@ -13,10 +13,17 @@ npm install substring-methods
 ```
 
 In your code
+Either
 ```
 const { firstLetter } = require('substring-methods');
 
 console.log(firstLetter("Test string"));
+```
+Or
+```
+const SubstringMethods = require('substring-methods');
+
+console.log(SubstringMethods.firstLetter("Test string"));
 ```
 
 ## Methods
