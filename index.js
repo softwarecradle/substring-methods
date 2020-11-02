@@ -22,16 +22,12 @@ exports.numberOfOccurrences = (s, sub) => {
 exports.allPossibleSubstrings = (s) => {
     let all = [];
 
-    for (let i = 0; i < s.length; i += 1) {
-        all.push(s[i]);
-    }
-
-    for (let i = 0; i < s.length; i += 2) {
-        all.push(s[i]);
-    }
-
-    for (let i = 0; i < s.length; i += 3) {
-        all.push(s[i]);
+    for (let k = 0; k <= s.length; k++) {
+        for (let i = 0; i < s.length; i++) {
+            let sub = s.substr(i, k);
+            if (sub.length && sub.length == k)
+                all.push(s.substr(i, k));
+        }
     }
 
     return all;
