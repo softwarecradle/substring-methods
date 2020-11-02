@@ -34,3 +34,16 @@ Get the last letter of a string
 const s = lastLetter("Hello"); 
 // returns "o"
 ```
+
+### `randomLetter`
+Get a random letter of a string
+```
+const s = randomLetter("Hello"); 
+```
+
+### `numberOfOccurrences`
+Count the number of times a substring occurs inside a string
+```
+const s = numberOfOccurrences("The heater he ordered for them was hefty", "he");
+// returns 5
+```
