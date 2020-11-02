@@ -56,7 +56,7 @@ const s = allPossibleSubstrings("cat");
 ```
 
 ### `allSubstringsOfLength`
-Gets all possible contiguous substrings inside a string
+Gets all possible contiguous substrings of a given length inside a string
 ```
 const s = allSubstringsOfLength("word", 2);
 // returns [ 'wo', 'or', 'rd' ]
