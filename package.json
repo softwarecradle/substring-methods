@@ -1,6 +1,6 @@
 {
   "name": "substring-methods",
-  "version": "1.2.2",
+  "version": "1.3.2",
   "description": "A collection of useful methods related to substrings, on top of the default ones offered by vanilla JavaScript.",
   "main": "index.js",
   "scripts": {
