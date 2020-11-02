@@ -18,3 +18,21 @@ exports.numberOfOccurrences = (s, sub) => {
     let splits = s.split(sub);
     return splits.length - 1;
 }
+
+exports.allPossibleSubstrings = (s) => {
+    let all = [];
+
+    for (let i = 0; i < s.length; i += 1) {
+        all.push(s[i]);
+    }
+
+    for (let i = 0; i < s.length; i += 2) {
+        all.push(s[i]);
+    }
+
+    for (let i = 0; i < s.length; i += 3) {
+        all.push(s[i]);
+    }
+
+    return all;
+}

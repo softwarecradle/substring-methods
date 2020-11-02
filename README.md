@@ -47,3 +47,11 @@ Count the number of times a substring occurs inside a string
 const s = numberOfOccurrences("The heater he ordered for them was hefty", "he");
 // returns 5
 ```
+
+### `allPossibleSubstrings`
+Gets all possible contiguous substrings inside a string
+```
+const s = allPossibleSubstrings("hello");
+// returns 5
+```
+
