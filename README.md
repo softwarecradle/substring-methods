@@ -51,7 +51,7 @@ const s = numberOfOccurrences("The heater he ordered for them was hefty", "he");
 ### `allPossibleSubstrings`
 Gets all possible contiguous substrings inside a string
 ```
-const s = allPossibleSubstrings("hello");
-// returns 5
+const s = allPossibleSubstrings("cat");
+// returns [ 'c', 'a', 't', 'ca', 'at', 'cat' ]
 ```
 
