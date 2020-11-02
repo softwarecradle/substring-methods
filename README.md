@@ -12,6 +12,13 @@ A collection of methods related to substrings in JavaScript
 npm install substring-methods
 ```
 
+In your code
+```
+const { firstLetter } = require('substring-methods');
+
+console.log(firstLetter("Test string"));
+```
+
 ## Methods
 
 ### `firstLetter`
