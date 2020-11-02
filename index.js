@@ -32,3 +32,15 @@ exports.allPossibleSubstrings = (s) => {
 
     return all;
 }
+
+exports.allSubstringsOfLength = (s, length) => {
+    let all = [];
+
+    for (let i = 0; i < s.length; i++) {
+        let sub = s.substr(i, length);
+        if (sub.length && sub.length == length)
+            all.push(s.substr(i, length));
+    }
+
+    return all;
+}
